@@ -10,4 +10,4 @@ It consists in converting Polish zlotys into other currencies.
 Easy to use because you just need to select the currency and enter the amount in PLN 
 and after clicking the button we will get the value of the currency.
 
-[calculator](https://i.postimg.cc/rwX5H7wx/currency-conventer.gif)
+[calculator](https://github.com/Arcziwald/currency-converter/tree/main/images/currency-conventer.gif)
