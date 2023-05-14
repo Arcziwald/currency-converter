@@ -1,19 +1,19 @@
-let currencyOption = document.querySelector(".js-select");
-let currencyConverter  = document.querySelector(".js-pln");
-let rateElement = document.querySelector(".js-rate");
-let formElement = document.querySelector(".js-form");
+const currencyOption = document.querySelector(".js-select");
+const currencyConverter  = document.querySelector(".js-pln");
+const rateElement = document.querySelector(".js-rate");
+const formElement = document.querySelector(".js-form");
 
-let PLN = 1;
-let EUR = 4.55;
-let CHF = 4.71;
-let GBP = 5.14;
-let USD = 4.32;
+const PLN = 1;
+const EUR = 4.55;
+const CHF = 4.71;
+const GBP = 5.14;
+const USD = 4.32;
 
 formElement.addEventListener("submit", (event) => {
     event.preventDefault();
 
-    let currency = currencyOption.value; 
-    let amount = +currencyConverter.value;
+    const currency = currencyOption.value; 
+    const amount = +currencyConverter.value;
     let rate;
 
     switch (currency) {
